@@ -30,7 +30,7 @@ const Login = () => {
       <Card className="w-96">
         <CardHeader
           variant="gradient"
-          color="blue"
+          color="indigo"
           className="mb-4 grid h-28 place-items-center"
         >
           <Typography variant="h3" color="white">
@@ -39,7 +39,7 @@ const Login = () => {
         </CardHeader>
         <CardBody className="flex flex-col gap-4">
           <Input
-            label="Name"
+            label="User Name"
             size="lg"
             type="text"
             name="name"
@@ -66,7 +66,7 @@ const Login = () => {
         </CardBody>
         <CardFooter className="pt-0">
           <Button
-            variant="gradient"
+            variant="secondary"
             fullWidth
             onClick={() => dispatch(login(values))}
           >
