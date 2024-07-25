@@ -1,4 +1,4 @@
-<a href = "https://shoploom.netlify.app>Visit the app </a>
+<a href = "https://shoploom.netlify.app">Visit the app </a>
 
 ![sign](https://github.com/user-attachments/assets/29d03967-6604-4e6c-8fa8-55ddc97f9dad)
 
