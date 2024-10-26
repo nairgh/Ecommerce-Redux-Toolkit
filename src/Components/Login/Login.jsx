@@ -15,7 +15,7 @@ const Login = () => {
   const intitalState = {
     name: "",
     password: "",
-    image: "",
+    image: ""
   };
   const [values, setValues] = useState(intitalState);
   const onChange = (e) => {
@@ -24,7 +24,7 @@ const Login = () => {
   };
 
   const dispatch = useDispatch();
-
+  
   return (
     <div className="grid grid-cols-1 items-center justify-items-center h-screen">
       <Card className="w-96">
@@ -73,6 +73,9 @@ const Login = () => {
             Sign In
           </Button>
           <Typography variant="small" className="mt-6 flex justify-center">
+            Login Credentials <br />
+            User Name : {"<Your Name>"} <br />
+            Password : {"<user#1234>"} <br />
             Image is Optional
           </Typography>
         </CardFooter>
